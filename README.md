@@ -5,3 +5,5 @@ Minimalistic reproduction of an issue in Angular specific 3rd party library
 
 The case is that binding `images` property of `ng-image-slider` component to a function,
 instead of a static array, breaks the behaviour of maximizing the images upon clicking them.
+
+[Demo](https://arekkukula.github.io/image-slider-repro/)
