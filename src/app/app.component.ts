@@ -8,12 +8,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
   imagesArray: Array<object> = [
     {
-      image: "/assets/google-image1.jpg",
-      thumbImage: "/assets/google-image1.jpg"
+      image: "./assets/google-image1.jpg",
+      thumbImage: "./assets/google-image1.jpg"
     },
     {
-      image: '/assets/google-image2.jpg',
-      thumbImage: '/assets/google-image2.jpg'
+      image: './assets/google-image2.jpg',
+      thumbImage: './assets/google-image2.jpg'
     }
   ];
 
@@ -25,12 +25,12 @@ export class AppComponent {
   imagesFunction(): Array<object> {
     return [
       {
-        image: "/assets/google-image1.jpg",
-        thumbImage: "/assets/google-image1.jpg"
+        image: "./assets/google-image1.jpg",
+        thumbImage: "./assets/google-image1.jpg"
       },
       {
-        image: '/assets/google-image2.jpg',
-        thumbImage: '/assets/google-image2.jpg'
+        image: './assets/google-image2.jpg',
+        thumbImage: './assets/google-image2.jpg'
       }
     ];
   }
